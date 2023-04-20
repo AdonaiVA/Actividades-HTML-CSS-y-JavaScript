@@ -5,8 +5,8 @@
 <script>
 
     function saltarLinea() {
-        document.write("<br>");    
-        document.write("<br>");    
+        document.write("<br>");
+        document.write("<br>");
         document.write("<br>");
     }
 
@@ -19,9 +19,7 @@
     var intentos = 3;
     var contador = 1;
 
-    
     while(contador <= intentos){
-        
         var numeroLanzado = parseInt(prompt("Ingrese un número entre 0 y 10"));
 
         if (numeroPensado == numeroLanzado)
@@ -35,22 +33,18 @@
             alert("usted erró");
         }
 
-        contador++;    
+        contador++;
     }
-
    
     if (numeroPensado == numeroLanzado)
         {
-            imprimir("usted acertó, en el intento " + contador + "el número pensado era " + numeroPensado);
-            
+            imprimir("usted acertó, en el intento " + contador + "el número pensado era " + numeroPensado);            
         }
 
     else
         {
             imprimir("usted erró, el número pensado era " + numeroPensado);
         }
-
-        
 
     imprimir("fin");
 
